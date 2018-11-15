@@ -1,6 +1,6 @@
 public class bubbleSortLab
 {
-    public void bubbleSort(int[] arr)
+    public static void bubbleSort(int[] arr)
     {
         int swapNum = 1;
         while(swapNum != 0)

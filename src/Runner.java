@@ -6,11 +6,8 @@ public class Runner
     {
         int[] check = randArr(10);
         printArr(check);
-        bubbleSort(check);
-
-
-        int[] check2 = Arrays.copyOf(check,check.length);
-        printArr(check2);
+        bubbleSortLab.bubbleSort(check);
+        printArr(check);
     }
 
     public static int[] randArr(int count)
