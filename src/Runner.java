@@ -4,10 +4,13 @@ public class Runner
 {
     public static void main(String[] args)
     {
-        int[] check = randArr(10);
+        int[] check = randArr(10000);
         printArr(check);
+        long start = System.currentTimeMillis();
         bubbleSortLab.bubbleSort(check);
+        long diff = System.currentTimeMillis() - start;
         printArr(check);
+        System.out.println(diff);
     }
 
     public static int[] randArr(int count)
